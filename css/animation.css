@@ -1,0 +1,68 @@
+#home #text-slider::after{
+    content: "";
+    animation-name: text;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text {
+
+    0%{content: "C|";}
+    1.49%{content: "CE|";}
+    2.98%{content: "CEO|";}
+    4.47%{content: "CEO |";}
+    5.96%{content: "CEO D|";}
+    7.45%{content: "CEO De|";}
+    8.94%{content: "CEO Dev|";}
+    10.43%{content: "CEO DevF|";}
+    11.92%{content: "CEO DevFo|";}
+    13.41%{content: "CEO DevFol|";}
+    14.9%{content: "CEO DevFoli|";}
+    16.39%{content: "CEO DevFolio|";}
+
+    31.28%{content: "CEO DevFolio|";}
+    31.29%{content: "CEO DevFoli|";}
+    32.78%{content: "CEO DevFol|";}
+    34.27%{content: "CEO DevFo|";}
+    35.76%{content: "CEO DevF|";}
+    37.25%{content: "CEO Dev|";}
+    38.74%{content: "CEO De|";}
+    40.23%{content: "CEO D|";}
+    41.72%{content: "CEO |";}
+    43.21%{content: "CEO|";}
+    44.7%{content: "CE|";}
+    46.19%{content: "C|";}
+
+    47.68%{content: "|";}
+
+    49.17%{content: "W|";}
+    50.66%{content: "We|";}
+    52.15%{content: "Web|";}
+    53.64%{content: "Web |";}
+    55.13%{content: "Web D|";}
+    56.62%{content: "Web De|";}
+    58.11%{content: "Web Dev|";}
+    59.6%{content: "Web Deve|";}
+    61.09%{content: "Web Devel|";}
+    62.58%{content: "Web Develo|";}
+    64.07%{content: "Web Develop|";}
+    65.56%{content: "Web Develope|";}
+    67.05%{content: "Web Developer|";}
+    
+    81.94%{content: "Web Developer|";}
+    81.95%{content: "Web Develope|";}
+    83.44%{content: "Web Develop|";}
+    84.93%{content: "Web Develo|";}
+    86.42%{content: "Web Devel|";}
+    87.91%{content: "Web Deve|";}
+    89.4%{content: "Web Dev|";}
+    90.89%{content: "Web De|";}
+    92.38%{content: "Web D|";}
+    93.87%{content: "Web |";}
+    95.36%{content: "Web|";}
+    96.85%{content: "We|";}
+    98.34%{content: "W|";}
+    100%{content: "|";}
+
+}
+

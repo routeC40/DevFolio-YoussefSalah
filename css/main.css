@@ -1,0 +1,137 @@
+body{
+    background-color: #f5f5f5;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/* Common Styles */
+.section-header > div{
+    width: 40px;
+    height: 5px;
+}
+
+/* Navigation Bar */
+.nav-item > div{
+    width: 0;
+    height: 2px;
+    transition: all 1s;
+}
+
+.nav-item:hover > div{
+    width: 35px;
+}
+
+/* Home Section */
+#home{
+    background-image: url(../imgs/intro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* About Section */
+.card-title > div{
+    width: 100px;
+    height: 3px;
+    transition: all 1s;
+}
+
+/* Service Section */
+.card-img-top span{
+    box-sizing: content-box;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s;
+}
+
+.card:hover .card-img-top span{
+    color: white;
+    background-color: var(--bs-primary);
+    border-color: hsl(216, 100%, 90%) !important;
+}
+
+/* Facts Section */
+#facts{
+    background-image: url(../imgs/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fact-icons{
+    box-sizing: content-box;
+    width: 60px;
+    height: 60px;
+}
+
+/* Work Section */
+#work .card .card-img-top{
+    transition: all 1s;
+}
+
+#work .card:hover .card-img-top{
+    transform: scale(1.3);
+}
+
+/* Testimonial Section */
+#testimonial{
+    background-image: url(../imgs/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#testimonial button{
+    opacity: 1;
+    background-color: #cde1f8;
+    width: 18px;
+    height: 7px;
+    margin: 5px;
+    transition: all 0.6s ease-in-out;
+}
+
+#testimonial button.active{
+    background-color: #1B1B1B;
+    width: 25px;
+}
+
+/* Blog Section */
+#blog .card-title a,
+#blog .card-footer a{
+    transition: all 0.5s;
+}
+#blog .card-title:hover a,
+#blog .card-footer:hover a{
+    color: var(--bs-primary) !important;
+}
+
+/* Contact Section */
+#contact{
+    background-image: url(../imgs/overlay-bg.jpg);
+}
+
+.social-icon,
+button[type="submit"]{
+    transition: all 0.5s
+}
+
+.social-icon:hover{
+    background-color: var(--bs-primary);
+    border-color: hsl(216, 100%, 90%) !important;
+}
+
+.social-icon:hover a{
+    color: white !important;
+    transition: all 0.5s
+}
+
+button[type="submit"]:hover{
+    box-shadow: 0 0 0 4px #cde1f8;
+}
+
+/* Scroll Top Button */
+#scroll-top{
+    width: 44px;
+    height: 44px;
+    right: 15px;
+    bottom: 15px;
+}
